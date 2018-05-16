@@ -48,6 +48,11 @@ a {
 	font-family: 'Roboto';
 }
 
+.subtitle a {
+	color: yellow !important;
+	font-weight: bold;
+}
+
 .yogs-down{
 	margin: 0 auto;
 	display: block;
@@ -202,6 +207,10 @@ a .head-button-2 {
 	text-decoration: none;
 	color: white;
 	margin-left: 10px;
+}
+
+.navbar-title{
+	color: white !important;
 }
 
 .nav-center{
