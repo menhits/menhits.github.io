@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Github Pages</title>
+	<title>Yogs Portofolio Pages</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<link rel="shortcut icon" href="assets/img/portofolio.png">
@@ -10,6 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/aos.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 </head>
@@ -19,8 +20,12 @@
 
 <header>
 	<nav class="head-nav" data-aos="fade-down" data-aos-offset="300">
-		<div class="nav-left">
-			<a href="https://yogs22.github.io">yogs22</a>
+		<div class="nav-left" class="navbar-title">
+			<a href="https://yogs22.github.io" class="navbar-title">yogs22</a>
+		</div>
+		<div class="navbar-bars">
+			<a href="#" class="navbar-title sidebar-toggle" style="padding: 0;"><i class="fa fa-bars"></i></a>
+        	<a href="index.html" class="navbar-title">yogs22</a>
 		</div>
 		<div class="nav-center">
 			<ul>
@@ -33,10 +38,22 @@
 			</ul>
 		</div>
 		<div class="nav-right">
-			<a href="https://script-kiddies.org">Website</a>
+			<a href="https://script-kiddies22.blogspot.co.id">Website</a>
 		</div>
 	</nav>
-	<div class="row">
+
+	<div class="sidebar">
+		<div class="sidebar-list">
+			<li><a href="" data-slide="slide" data-slide-target="#about">About</a></li>
+			<li><a href="" data-slide="slide" data-slide-target="#work">Portofolio</a></li>
+			<li><a href="" data-slide="slide" data-slide-target="#skills">Skills</a></li>
+			<li><a href="" data-slide="slide" data-slide-target="#contact">Contact</a></li>
+		</div>
+	</div>
+
+	<div class="sidebar-overlay"></div>
+
+	<div class="row rows">
 		<div class="head-1 col-lg-6 col-md-6 col-xs-12">
 			<div data-aos="zoom-in">
 				<h3>MY NAME IS <br> YOGI PRASETYAWAN HADI</h3>
@@ -51,24 +68,58 @@
 		<div class="head-2 col-lg-5 col-md-5 col-xs-12" data-aos="fade-right" data-aos-delay="600">
 			<img src="assets/img/yogs-laptop.png">
 		</div>
-	</div>
-	<div class="row">
-		<div class="col-lg-12" data-aos="flip-left" data-aos-delay="950">
-			<a href="" data-slide="slide" data-slide-target="#about"><i  class="glyphicon glyphicon-chevron-down glyphicon-lg yogs-down" aria-hidden="true"></i></a>
-		</div>
-	</div>
-	<div id="about" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-		<div class="container">
-			<h3 class="title" style="color: #FFF">About Me</h3>
-			<p style="font-family: roboto;font-weight: normal;">My full name is Yogi Prasetyawan Hadi I am very interested in the development 
-			of information technology escpecialy in the field of web programming <br> <br>
-
-			I've started to know computers since the age of 8 years 
-			and began to understand programming since at Vocational Highschool
-			and now i try to be active in programming community</p>
-		</div>
-	</div>
+	</div>	
 </header>
+
+<!-- ========== About ========= -->
+
+<div id="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-xs-12">
+				<div class="about-yogs">
+				  <div class="row">
+				    <div class="column left">
+				      <span class="dot" style="background:#ED594A;"></span>
+				      <span class="dot" style="background:#FDD800;"></span>
+				      <span class="dot" style="background:#5AC05A;"></span>
+				    </div>
+				    <div class="column middle">
+				      <input type="text" value="http://www.yogs22.github.io">
+				    </div>
+				    <div class="column right">
+				      <div style="float:right">
+				        <span class="bar"></span>
+				        <span class="bar"></span>
+				        <span class="bar"></span>
+				      </div>
+				    </div>
+				  </div>
+
+				  <div class="content">
+				    <h3>About Me</h3>
+				    <p>
+			I am a person who have passion in the field of IT, especially web programming, I also have knowledge in the field of graphic design and android programming.</p><p> Therefore I also like to implement and share knowledge that I have to others so useful. I am also active in various programming communities, write my blog articles and build community in my school</p>
+				  </div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6 col-xs-12 right-about">
+				<br>
+				<h3 class="title">Experience</h3>
+				<p class="right-about-text">I have more than 1 year experience in web programming, attend various events and work as freelancer</p>
+				<a href="" class="btn-about" data-slide="slide" data-slide-target="#skills">See The Skills</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- ========= Download ======== -->
+
+<div id="download">
+	<div class="container" style="z-index: 2">
+		<a href="https://drive.google.com/drive/folders/1XDFbVqG1xffPjfE5DIFVDMJduWY84MLI?usp=sharing" target="_blank" class="btn-download">Download CV & Sertifikat</a>
+	</div>
+</div>
 
 <!-- ========== Work ========== -->
 
@@ -77,7 +128,7 @@
 		<h3 class="title">Some Of My Work</h3>
 	</div>
 	<div data-aos="fade-up" data-aos-delay="300">
-		<h4 class="subtitle">Here's what I've been working on all this time that I started since at Vocational High School</h4>
+		<h4 class="subtitle">Here's what I've been working on all this time , this is just some work I can publish</h4>
 	</div>
 	
 	 <!-- Tab links -->
@@ -94,66 +145,122 @@
 	<!-- Tab content -->
 	<div id="Project" class="tabcontent">
 	  <div class="row">
-	  	<div class="tab-row-img col-lg-3" data-aos="fade-up" data-aos-delay="700">
-	  		<img class="tab-img" src="assets/img/yogs-laptop.png">
+	  	<div class="tab-row-img col-lg-3 col-md-3 col-xs-6" data-aos="fade-up" data-aos-delay="700">
+	  		<img class="tab-img" src="assets/img/project/Laravel_UKK.png">
 	  		<div class="tab-ov">
-	  			<span class="tab-ov-text">Hello World</span>
+	  			<span class="tab-ov-text">Aplikasi Inventaris Barang UKK</span>
 	  		</div>
 	  	</div>
-	  	<div class="tab-row-img col-lg-3" data-aos="fade-up" data-aos-delay="700">
-	  		<img class="tab-img" src="assets/img/yogs-laptop.png">
+	  	<div class="tab-row-img col-lg-3 col-md-3 col-xs-6" data-aos="fade-up" data-aos-delay="900">
+	  		<img class="tab-img" src="assets/img/project/si_surat.png">
 	  		<div class="tab-ov">
-	  			<span class="tab-ov-text">Hello World</span>
+	  			<span class="tab-ov-text">Arsip Surat</span>
 	  		</div>
 	  	</div>
-	  	<div class="tab-row-img col-lg-3" data-aos="fade-up" data-aos-delay="700">
-	  		<img class="tab-img" src="assets/img/yogs-laptop.png">
+	  	<div class="tab-row-img col-lg-3 col-md-3 col-xs-6" data-aos="fade-up" data-aos-delay="1100">
+	  		<img class="tab-img" src="assets/img/project/inventaris_desa.png">
 	  		<div class="tab-ov">
-	  			<span class="tab-ov-text">Hello World</span>
+	  			<span class="tab-ov-text">Aplikasi Inventaris Barang Desa</span>
 	  		</div>
 	  	</div>
-	  	<div class="tab-row-img col-lg-3" data-aos="fade-up" data-aos-delay="700">
-	  		<img class="tab-img" src="assets/img/yogs-laptop.png">
+	  	<div class="tab-row-img col-lg-3 col-md-3 col-xs-6" data-aos="fade-up" data-aos-delay="1300">
+	  		<img class="tab-img" src="assets/img/project/simdesa.png">
 	  		<div class="tab-ov">
-	  			<span class="tab-ov-text">Hello World</span>
+	  			<span class="tab-ov-text">Aplikasi Surat Desa</span>
 	  		</div>
 	  	</div>
-	  	<div class="tab-row-img col-lg-3" data-aos="fade-up" data-aos-delay="700">
-	  		<img class="tab-img" src="assets/img/yogs-laptop.png">
+	  	<div class="tab-row-img col-lg-3 col-md-3 col-xs-6" data-aos="fade-up" data-aos-delay="700">
+	  		<img class="tab-img" src="assets/img/project/mks-run.png">
 	  		<div class="tab-ov">
-	  			<span class="tab-ov-text">Hello World</span>
+	  			<span class="tab-ov-text">Web Pendaftaran Lomba Lari</span>
 	  		</div>
 	  	</div>
-	  	<div class="tab-row-img col-lg-3" data-aos="fade-up" data-aos-delay="700">
-	  		<img class="tab-img" src="assets/img/yogs-laptop.png">
+	  	<div class="tab-row-img col-lg-3 col-md-3 col-xs-6" data-aos="fade-up" data-aos-delay="900">
+	  		<img class="tab-img" src="assets/img/project/web_sekolah.png">
 	  		<div class="tab-ov">
-	  			<span class="tab-ov-text">Hello World</span>
+	  			<span class="tab-ov-text">Website Sekolah</span>
 	  		</div>
 	  	</div>
-	  	<div class="tab-row-img col-lg-3" data-aos="fade-up" data-aos-delay="700">
-	  		<img class="tab-img" src="assets/img/yogs-laptop.png">
+	  	<div class="tab-row-img col-lg-3 col-md-3 col-xs-6" data-aos="fade-up" data-aos-delay="1100">
+	  		<img class="tab-img" src="assets/img/project/rokok.png">
 	  		<div class="tab-ov">
-	  			<span class="tab-ov-text">Hello World</span>
+	  			<span class="tab-ov-text">Sales Penjualan Rokok</span>
 	  		</div>
 	  	</div>
-	  	
+	  	<div class="tab-row-img col-lg-3 col-md-3 col-xs-6" data-aos="fade-up" data-aos-delay="1300">
+	  		<img class="tab-img" src="assets/img/project/angkringan.png">
+	  		<div class="tab-ov">
+	  			<span class="tab-ov-text">Kasir Kafe</span>
+	  		</div>
+	  	</div>
+	  	<div class="tab-row-img col-lg-3 col-md-3 col-xs-6" data-aos="fade-up" data-aos-delay="700">
+	  		<img class="tab-img" src="assets/img/project/android.jpg">
+	  		<div class="tab-ov">
+	  			<span class="tab-ov-text">Aplikasi Pemilihan OSIS</span>
+	  		</div>
+	  	</div>
 	  </div>
 	</div>
-
-	<!-- Modal Porotoflio -->
-
 
 	<!-- Tab Dummy -->
 
 	<div id="Dummy" class="tabcontent">
-	  <h3>Paris</h3>
-	  <p>Paris is the capital of France.</p>
+	<div class="row">
+	  <div class="tab-row-img col-lg-3 col-md-3 col-xs-6" data-aos="fade-up" data-aos-delay="700">
+	  		<img class="tab-img" src="assets/img/project/sms.png">
+	  		<div class="tab-ov">
+	  			<span class="tab-ov-text">Aplikasi Absensi Siswa</span>
+	  		</div>
+	  	</div>
+	  	<div class="tab-row-img col-lg-3 col-md-3 col-xs-6" data-aos="fade-up" data-aos-delay="900">
+	  		<img class="tab-img" src="assets/img/project/portal.png">
+	  		<div class="tab-ov">
+	  			<span class="tab-ov-text">Portal BLC Telkom Klaten</span>
+	  		</div>
+	  	</div>
+	  	<div class="tab-row-img col-lg-3 col-md-3 col-xs-6" data-aos="fade-up" data-aos-delay="1100">
+	  		<img class="tab-img" src="assets/img/project/web_rspd.png">
+	  		<div class="tab-ov">
+	  			<span class="tab-ov-text">Wordpress Templte</span>
+	  		</div>
+	  	</div>
+	  	<div class="tab-row-img col-lg-3 col-md-3 col-xs-6" data-aos="fade-up" data-aos-delay="1300">
+	  		<img class="tab-img" src="assets/img/project/cms_desa.png">
+	  		<div class="tab-ov">
+	  			<span class="tab-ov-text">CMS Desa</span>
+	  		</div>
+	  	</div>
+	  </div>
 	</div>
 
 	<div id="Activities" class="tabcontent">
-	  <h3>Tokyo</h3>
-	  <p>Tokyo is the capital of Japan.</p>
+	<div class="row">
+		 <div class="tab-row-img col-lg-3 col-md-3 col-xs-6" data-aos="fade-up" data-aos-delay="700">
+	  		<img class="tab-img" src="assets/img/project/juara.jpg">
+	  		<div class="tab-ov">
+	  			<span class="tab-ov-text">Juara 1 Web Design Competition</span>
+	  		</div>
+	  	</div>
+	  	<div class="tab-row-img col-lg-3 col-md-3 col-xs-6" data-aos="fade-up" data-aos-delay="900">
+	  		<img class="tab-img" src="assets/img/project/iak.jpg">
+	  		<div class="tab-ov">
+	  			<span class="tab-ov-text">Best Project IAK</span>
+	  		</div>
+	  	</div>
+	  	<div class="tab-row-img col-lg-3 col-md-3 col-xs-6" data-aos="fade-up" data-aos-delay="1100">
+	  		<img class="tab-img" src="assets/img/project/meetup.jpg">
+	  		<div class="tab-ov">
+	  			<span class="tab-ov-text">Meetup PHP Indonesia</span>
+	  		</div>
+	  	</div>
+	  	<div class="tab-row-img col-lg-3 col-md-3 col-xs-6" data-aos="fade-up" data-aos-delay="1300">
+	  		<img class="tab-img" src="assets/img/project/lks.jpg">
+	  		<div class="tab-ov">
+	  			<span class="tab-ov-text">LKS Provinsi</span>
+	  		</div>
+	  	</div>
 	</div> 
+</div>
 </section>
 
 <!-- ========== Skills ========== -->
@@ -167,43 +274,134 @@
 		<div class="tech-icon">
 			<i class="devicon-html5-plain"></i>
 			<div class="tech-text">
-				<b>HTML5</b>
-				<h3>95%</h3>
+				<b>HTML5</b><br>
+				<b>95%</b>
 			</div>
 		</div>
 		<div class="tech-icon">
 			<i class="devicon-css3-plain"></i>
 			<div class="tech-text">
-				<b>CSS3</b>
-				<h3>90%</h3>
+				<b>CSS3</b><br>
+				<b>90%</b>
 			</div>
 		</div>
 		<div class="tech-icon">
 			<i class="devicon-javascript-plain"></i>
 			<div class="tech-text">
-				<b>JAVASCRIPT</b>
-				<h3>60%</h3>
+				<b>JAVASCRIPT</b><br>
+				<b>60%</b>
 			</div>
 		</div>
 		<div class="tech-icon">
 			<i class="devicon-php-plain"></i>
 			<div class="tech-text">
-				<b>PHP</b>
-				<h3>80%</h3>
+				<b>PHP</b><br>
+				<b>85%</b>
 			</div>
-		</div><hr style="color: black;">
+		</div>
+		<div class="tech-icon">
+			<i class="devicon-mysql-plain"></i>
+			<div class="tech-text">
+				<b>MYSQL</b><br>
+				<b>80%</b>
+			</div>
+		</div>
 		<div class="tech-icon">
 			<i class="devicon-bootstrap-plain"></i>
 			<div class="tech-text">
-				<b>BOOTSTRAP</b>
-				<h3>80%</h3>
+				<b>BOOTSTRAP</b><br>
+				<b>90%</b>
 			</div>
 		</div>
 		<div class="tech-icon">
-			<i class="devicon-php-plain"></i>
+			<i class="devicon-laravel-plain"></i>
 			<div class="tech-text">
-				<b>PHP</b>
-				<h3>80%</h3>
+				<b>LARAVEL</b><br>
+				<b>70%</b>
+			</div>
+		</div>
+		<div class="tech-icon">
+			<i class="devicon-codeigniter-plain"></i>
+			<div class="tech-text">
+				<b>CODEIGNIER</b><br>
+				<b>75%</b>
+			</div>
+		</div>
+		<div class="tech-icon">
+			<i class="devicon-angularjs-plain"></i>
+			<div class="tech-text">
+				<b>ANGULAR JS</b><br>
+				<b>50%</b>
+			</div>
+		</div>
+		<div class="tech-icon">
+			<i class="devicon-vuejs-plain"></i>
+			<div class="tech-text">
+				<b>VUE JS</b><br>
+				<b>45%</b>
+			</div>
+		</div>
+		<div class="tech-icon">
+			<i class="devicon-java-plain"></i>
+			<div class="tech-text">
+				<b>JAVA</b><br>
+				<b>60%</b>
+			</div>
+		</div>
+		<div class="tech-icon">
+			<i class="devicon-jquery-plain"></i>
+			<div class="tech-text">
+				<b>JQUERY</b><br>
+				<b>75%</b>
+			</div>
+		</div>
+		<div class="tech-icon">
+			<i class="devicon-nodejs-plain"></i>
+			<div class="tech-text">
+				<b>NODE JS</b><br>
+				<b>55%</b>
+			</div>
+		</div>
+		<div class="tech-icon">
+			<i class="devicon-python-plain"></i>
+			<div class="tech-text">
+				<b>PYTHON</b><br>
+				<b>40%</b>
+			</div>
+		</div>
+		<div class="tech-icon">
+			<i class="devicon-sass-plain"></i>
+			<div class="tech-text">
+				<b>SASS</b><br>
+				<b>70%</b>
+			</div>
+		</div>
+		<div class="tech-icon">
+			<i class="devicon-wordpress-plain"></i>
+			<div class="tech-text">
+				<b>WORDPRESS</b><br>
+				<b>75%</b>
+			</div>
+		</div>
+		<div class="tech-icon">
+			<i class="devicon-linux-plain"></i>
+			<div class="tech-text">
+				<b>LINUX</b><br>
+				<b>75%</b>
+			</div>
+		</div>
+		<div class="tech-icon">
+			<i class="devicon-android-plain"></i>
+			<div class="tech-text">
+				<b>ANDROID</b><br>
+				<b>60%</b>
+			</div>
+		</div>
+		<div class="tech-icon">
+			<i class="devicon-git-plain"></i>
+			<div class="tech-text">
+				<b>GIT</b><br>
+				<b>65%</b>
 			</div>
 		</div>
 	</div>
@@ -211,14 +409,15 @@
 
 <section id="contact">
 	<h3 class="title">YOU <b style="color: #fffc00">CAN</b> FIND <b style="color: #fffc00">ME</b></h3>
-	<h4 class="subtitle">Feel free to contact me if you need me to create some awesome</h4>
+	<h4 class="subtitle">Feel free to contact me if you need me to create some awesome <br>
+		Leave me a massage on <a href="telegram.me/Yogs22">Telegram</a> or <a href="yogiprasetyawan12@gmail.com">Email</a></h4>
 	<div class="title-line" style="background: #fffc00 !important"></div>
 
 	<div class="row">
 		<div class="col-md-12 row-social">
 			<center>
 				<a href="https://fb.com/yogs404" target="_blank"><img src="assets/img/social/fb.png"></a>
-				<a href="https://instagram.com/yogi_ph22" target="_blank"><img src="assets/img/social/instagram.png"></a>
+				<a href="https://instagram.com/yogiyogs22" target="_blank"><img src="assets/img/social/instagram.png"></a>
 				<a href="https://www.linkedin.com/in/yogi-prasetyawan-b81950156/" target="_blank"><img src="assets/img/social/linkedin.png"></a>
 				<a href="https://github.com/yogs22" target="_blank"><img src="assets/img/social/github.png"></a>
 			</center>
@@ -231,7 +430,7 @@
 	<span>Created with <i class="fa fa-heart-o"></i> - By Yogi Prasetyawan </span>
 </footer>
 
-<div class="backtotop"><span></span> <span class="glyphicon glyphicon-chevron-up"></span> </div>
+<div class="backtotop"><span></span> <span class="fa fa-chevron-up"></span> </div>
 
 <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>

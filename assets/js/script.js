@@ -42,6 +42,16 @@ $(function(){
         return $("html,body").animate({scrollTop:0},800),!1})
 });
 
+$('.sidebar-toggle').click(function(e){
+  e.preventDefault();
+  $('.sidebar').addClass('active');
+  $('.sidebar-overlay').css('visibility', 'visible');
+})
+$('.sidebar-overlay').click(function(e){
+  e.preventDefault();
+  $('.sidebar').removeClass('active');
+  $('.sidebar-overlay').css('visibility', 'hidden');
+});
 
 // Function Tabs
 function openTabs(evt, cityName) {
